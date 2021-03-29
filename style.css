@@ -290,7 +290,7 @@ body {
 	top: 0;
 	left: 0;
 	transform: translateY(-100%);
-	background-color: white;
+	background-color: rgb(100, 43, 43);
 	position: absolute;
 }
 .benefits_cards {
