@@ -290,13 +290,21 @@ body {
 	top: 0;
 	left: 0;
 	transform: translateY(-100%);
-	background-color: rgb(100, 43, 43);
+	background-color: white;
 	position: absolute;
 }
 .benefits_cards {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-column-gap: 55px;
+	 {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.benefits_cards > div {
+		background-color: green;
+		font-size: 20px;
+		margin: 20px;
+		padding: 20px;
+		width: 200px;
+	}
 }
 
 /* Benefits styles end*/
